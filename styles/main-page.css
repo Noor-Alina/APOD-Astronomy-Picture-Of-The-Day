@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "EastmanAlternate";
+  src: url("../../assets/fonts/eastman_alternate/EastmanAlternateTrial-Light.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../assets/fonts/AvenirNextLTPro-Demi.otf") format("opentype"), url("../assets/fonts/alternative/AvenirNextLTProDemi.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Avenir Next";
+  src: url("../assets/fonts/AvenirNextLTPro-Bold.otf") format("opentype"), url("../assets/fonts/alternative/AvenirNextLTProBold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header, .footer {
+  background-color: #06142d;
+}
+
+.header {
+  margin: 0;
+  height: 3rem;
+}
+
+.logo {
+  margin: 0;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #0c2151;
+}
+.main__container {
+  padding: 2rem;
+  display: flex;
+}
+.main__description-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.main__image-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+.main__title {
+  font-family: "EastmanAlternate";
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-weight: 200;
+}
+.main__image-title {
+  padding: 1rem;
+  margin: 0 auto;
+}
+.main__date {
+  margin: 0 auto;
+  padding: 1rem;
+}
+.main__description {
+  padding: 1rem;
+  font-size: 0.7rem;
+  margin: 0;
+}
+.main__by-tag {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 1rem;
+}
+.main__image {
+  margin: 0 auto;
+  width: 20rem;
+  height: 20rem;
+  border: 0.2rem solid #cbafdb;
+  border-radius: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 2rem;
+}
+.footer__logo {
+  padding: 1rem;
+  margin: 0;
+  font-size: 1rem;
+}
+.footer__made-by {
+  margin: 0;
+}
+.footer__api-by {
+  margin: 0;
+  padding-top: 0.5rem;
+}
+.footer__api-by a {
+  color: #cbafdb;
+}
+.footer__info {
+  font-size: 0.7rem;
+}
